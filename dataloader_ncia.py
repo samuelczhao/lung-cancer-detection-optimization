@@ -75,7 +75,7 @@ def balence_dataset(label_file, out_file):
 
 def move_all(filepath, dest):
     '''
-        Moves all files in in subfolder of folder into folder
+        Moves all files in subfolder of folder into folder
         NOTE: destination directory must already exist
     '''
     if os.path.isfile(filepath):
